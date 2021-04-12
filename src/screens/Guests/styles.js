@@ -2,7 +2,8 @@ import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
     container: {
-
+        justifyContent: 'space-between',
+        height: '100%'
     },
     row: {
         flexDirection: 'row', 
@@ -32,6 +33,20 @@ const styles = StyleSheet.create({
     operationSign: {
         fontSize: 20,
         color: '#474747'
+    },
+    guestSearchButtonContainer: {
+        marginBottom: 40,
+        backgroundColor: '#f15454',
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: 50,
+        marginHorizontal: 20,
+        borderRadius: 10
+    },
+    buttonText: {
+        fontSize: 20,
+        color: 'white',
+        fontWeight: 'bold'
     }
 })
 
