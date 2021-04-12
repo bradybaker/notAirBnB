@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     flexDirection: 'row',
     position: 'absolute',
-    top: 20,
+    top: 50,
     zIndex: 100,
     marginHorizontal: 10
 },
